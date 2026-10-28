@@ -1,0 +1,46 @@
+{
+    "total_simulations": 10000,
+    "accepted_simulations": 10000,
+    "rejected_simulations": 0,
+    "rejection_reasons": {
+        "negative_pressure": 0,
+        "below_min_pressure": 0
+    },
+    "reservoir_node": "180",
+    "reservoir_head": 120.0,
+    "min_p": 53,
+    "max_p": 113,
+    "measurement_nodes": [
+        "meas_20",
+        "meas_140"
+    ],
+    "node_mapping": {
+        "0": "20",
+        "1": "30",
+        "2": "40",
+        "3": "50",
+        "4": "55",
+        "5": "60",
+        "6": "70",
+        "7": "75",
+        "8": "80",
+        "9": "90",
+        "10": "100",
+        "11": "110",
+        "12": "115",
+        "13": "120",
+        "14": "130",
+        "15": "140",
+        "16": "150",
+        "17": "160",
+        "18": "170",
+        "19": "180",
+        "20": "meas_20",
+        "21": "meas_140"
+    },
+    "demand_stats": {
+        "min_deviation": 0,
+        "max_deviation": 1,
+        "total_demand": 0.47279999999999994
+    }
+}

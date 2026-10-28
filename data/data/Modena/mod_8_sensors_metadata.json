@@ -1,0 +1,9 @@
+{
+    "num_simulations": 10000,
+    "num_nodes": 277,
+    "feature_vector_length": 4,
+    "num_edges": 1252,
+    "timestamp": "20250508_184338",
+    "dataset_filepath": "data/water_network_dataset_20250508_184338_dataset.pt",
+    "stats_filepath": "data/water_network_dataset_20250508_184338_stats.json"
+}

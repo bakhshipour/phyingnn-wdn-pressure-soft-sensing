@@ -1,0 +1,23 @@
+# Large binary datasets (regenerate with the notebooks; available upon request)
+**/*.pt
+**/*.pth
+**/*.ckpt
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Patch helpers (local only)
+_patch_hw_weights.py
