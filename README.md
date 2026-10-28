@@ -24,16 +24,6 @@ data/
 
 Large PyTorch dataset binaries (`.pt`) are **not** tracked in Git (GitHub file-size limits). They can be regenerated with the notebooks above, or requested from the corresponding author.
 
-## Hydraulic edge weights (Hazen–Williams)
-
-Pipe resistances used for shortest-path / message-passing weights follow the flow-independent Hazen–Williams form used in the manuscript:
-
-\[
-r_e = \frac{L}{f^{1.852}\, D^{4.87}}
-\]
-
-where \(f\) is the Hazen–Williams roughness coefficient, \(L\) is length, and \(D\) is diameter. Resistances are then max-normalized within each network. Absolute units cancel under normalization; values are taken consistently from the EPANET model attributes.
-
 ## Quick start
 
 ```bash
